@@ -1,0 +1,148 @@
+#anyschedule {
+    color: rgb(64, 199, 52);
+}
+.main {
+    width: 90%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 20px;
+}
+
+.logo{
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 950px;
+}
+
+.image{
+    max-width: 800px;
+    max-height: 600px;
+    border: 50px;
+    padding: 100px;
+}
+
+.top{
+    border: 30px;
+    padding: 170px;
+    background-color: beige;
+    
+}
+
+
+.ready{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+.container{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 32, 37);
+    font-weight: 500;
+    margin-top: 0%;
+    
+    
+    outline-color: rgb(4, 44, 45);
+
+}
+
+.inner1{
+    border: 40px;
+    padding: 20px;
+    
+    margin: 10px;
+    background-color: rgb(255, 251, 246);
+    width: 18%;
+}
+
+.inner2{
+    border: 40px;
+    padding: 20px;
+    
+    margin: 10px;
+    background-color: rgb(255, 251, 246);
+    width: 18%;
+}
+
+.inner3{
+    border: 40px;
+    padding: 20px;
+    
+    margin: 10px;
+    background-color: rgb(255, 251, 246);
+    width: 18%;
+
+}
+.inner4{
+    border: 40px;
+    padding: 20px;
+    
+    margin: 10px;
+    background-color: rgb(255, 251, 246);
+    width: 18%;
+
+}
+.card-img-top{
+
+    width: 30%;
+    padding: 40px;
+}
+.iconsmall {
+
+    width: 8%;
+    margin-left: 3%;
+}
+.calendar {
+
+    width: 8%;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 688px) {
+
+    .container {
+        
+        /* flex-direction:column-reverse; */
+        grid-template-columns: 1fr;
+    }
+    .btn {/* flex-direction:column-reverse; */
+        grid-template-columns: 1fr;
+
+    }
+
+    .card {
+        grid-template-columns: 280px;
+    }
+
+}
+
+
+/*****************************
+Media Queries for TABs:
+******************************/
+
+@media only screen and (max-width: 992px) and (min-width:689px)  {
+    
+    .container{
+        grid-template-columns: 280px 280px;
+    }
+
+}
